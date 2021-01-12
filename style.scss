@@ -1,0 +1,49 @@
+$alataFont: "Alata", sans-serif;
+$josefinFont: "Josefin Sans", sans-serif;
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+$darkGray: hsl(0, 0%, 55%);
+$veryDarkGray: hsl(0, 0%, 41%);
+
+body {
+  font-family: $josefinFont;
+  font-size: 15px;
+  color: white;
+  margin: 0;
+}
+.headerWrapper {
+  background: url(/images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  padding: 50px 10vw 50px 10vw;
+}
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navMenu {
+  list-style: none;
+  display: flex;
+}
+ul li:not(:last-child) {
+  margin: 0 24px 0 0;
+}
+.menuItemLink {
+  color: $white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: $alataFont;
+  font-weight: 400;
+  font-size: 18px;
+}
+.headerHero {
+  border: 2px solid #fff;
+  padding: 15px;
+  width: 500px;
+  margin: 100px 0 0 0;
+}
+.headerHeroTitle {
+  font-size: 65px;
+  margin: 0;
+}
